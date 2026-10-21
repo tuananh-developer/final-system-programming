@@ -72,28 +72,28 @@ include CMakeFiles/final_system_programming.dir/flags.make
 CMakeFiles/final_system_programming.dir/codegen:
 .PHONY : CMakeFiles/final_system_programming.dir/codegen
 
-CMakeFiles/final_system_programming.dir/main.c.o: CMakeFiles/final_system_programming.dir/flags.make
-CMakeFiles/final_system_programming.dir/main.c.o: /mnt/Data/Project/final_system_programming/main.c
-CMakeFiles/final_system_programming.dir/main.c.o: CMakeFiles/final_system_programming.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/Data/Project/final_system_programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/final_system_programming.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_system_programming.dir/main.c.o -MF CMakeFiles/final_system_programming.dir/main.c.o.d -o CMakeFiles/final_system_programming.dir/main.c.o -c /mnt/Data/Project/final_system_programming/main.c
+CMakeFiles/final_system_programming.dir/src/main.c.o: CMakeFiles/final_system_programming.dir/flags.make
+CMakeFiles/final_system_programming.dir/src/main.c.o: /mnt/Data/Project/final_system_programming/src/main.c
+CMakeFiles/final_system_programming.dir/src/main.c.o: CMakeFiles/final_system_programming.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/Data/Project/final_system_programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/final_system_programming.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_system_programming.dir/src/main.c.o -MF CMakeFiles/final_system_programming.dir/src/main.c.o.d -o CMakeFiles/final_system_programming.dir/src/main.c.o -c /mnt/Data/Project/final_system_programming/src/main.c
 
-CMakeFiles/final_system_programming.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_system_programming.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Data/Project/final_system_programming/main.c > CMakeFiles/final_system_programming.dir/main.c.i
+CMakeFiles/final_system_programming.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_system_programming.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Data/Project/final_system_programming/src/main.c > CMakeFiles/final_system_programming.dir/src/main.c.i
 
-CMakeFiles/final_system_programming.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_system_programming.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Data/Project/final_system_programming/main.c -o CMakeFiles/final_system_programming.dir/main.c.s
+CMakeFiles/final_system_programming.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_system_programming.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Data/Project/final_system_programming/src/main.c -o CMakeFiles/final_system_programming.dir/src/main.c.s
 
 # Object files for target final_system_programming
 final_system_programming_OBJECTS = \
-"CMakeFiles/final_system_programming.dir/main.c.o"
+"CMakeFiles/final_system_programming.dir/src/main.c.o"
 
 # External object files for target final_system_programming
 final_system_programming_EXTERNAL_OBJECTS =
 
-final_system_programming: CMakeFiles/final_system_programming.dir/main.c.o
+final_system_programming: CMakeFiles/final_system_programming.dir/src/main.c.o
 final_system_programming: CMakeFiles/final_system_programming.dir/build.make
 final_system_programming: CMakeFiles/final_system_programming.dir/compiler_depend.ts
 final_system_programming: CMakeFiles/final_system_programming.dir/link.txt

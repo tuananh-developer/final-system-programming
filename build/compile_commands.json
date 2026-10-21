@@ -1,8 +1,8 @@
 [
 {
   "directory": "/mnt/Data/Project/final_system_programming/build",
-  "command": "/usr/bin/cc   -g -o CMakeFiles/final_system_programming.dir/main.c.o -c /mnt/Data/Project/final_system_programming/main.c",
-  "file": "/mnt/Data/Project/final_system_programming/main.c",
-  "output": "CMakeFiles/final_system_programming.dir/main.c.o"
+  "command": "/usr/bin/cc   -g -o CMakeFiles/final_system_programming.dir/src/main.c.o -c /mnt/Data/Project/final_system_programming/src/main.c",
+  "file": "/mnt/Data/Project/final_system_programming/src/main.c",
+  "output": "CMakeFiles/final_system_programming.dir/src/main.c.o"
 }
 ]

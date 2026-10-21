@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/Data/Project/final_system_programming/main.c" "CMakeFiles/final_system_programming.dir/main.c.o" "gcc" "CMakeFiles/final_system_programming.dir/main.c.o.d"
+  "/mnt/Data/Project/final_system_programming/src/main.c" "CMakeFiles/final_system_programming.dir/src/main.c.o" "gcc" "CMakeFiles/final_system_programming.dir/src/main.c.o.d"
   "" "final_system_programming" "gcc" "CMakeFiles/final_system_programming.dir/link.d"
   )
 

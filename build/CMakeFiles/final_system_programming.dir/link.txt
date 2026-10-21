@@ -1,1 +1,1 @@
-/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/final_system_programming.dir/link.d CMakeFiles/final_system_programming.dir/main.c.o -o final_system_programming
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/final_system_programming.dir/link.d CMakeFiles/final_system_programming.dir/src/main.c.o -o final_system_programming

@@ -1460,3 +1460,96 @@ events:
         - "/usr/pkg"
         - "/opt"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CTest.cmake:171 (find_program)"
+      - "CMakeLists.txt:6 (include)"
+    mode: "program"
+    variable: "GITCOMMAND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/anh/.local/bin/"
+      - "/home/anh/.cargo/bin/"
+      - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/anh/.local/share/pnpm/bin/"
+      - "/home/anh/.nvm/versions/node/v24.18.0/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/mnt/Data/Android_SDK/emulator/"
+      - "/mnt/Data/Android_SDK/platform-tools/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/anh/.local/bin/git"
+      - "/home/anh/.cargo/bin/git"
+      - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "/home/anh/.local/share/pnpm/bin/git"
+      - "/home/anh/.nvm/versions/node/v24.18.0/bin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/anh/.local/bin"
+        - "/home/anh/.cargo/bin"
+        - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/anh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/anh/.local/bin"
+        - "/home/anh/.cargo/bin"
+        - "/home/anh/.local/share/pnpm/bin"
+        - "/home/anh/.nvm/versions/node/v24.18.0/bin"
+        - "/home/anh/.local/bin"
+        - "/home/anh/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/anh/.local/bin"
+        - "/home/anh/.local/bin"
+        - "/mnt/Data/Android_SDK/emulator"
+        - "/mnt/Data/Android_SDK/platform-tools"
+        - "/home/anh/.local/bin"
+        - "/mnt/Data/Android_SDK/emulator"
+        - "/mnt/Data/Android_SDK/platform-tools"
+        - "/home/anh/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

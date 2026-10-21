@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/final_system_programming.dir/link.d"
-  "CMakeFiles/final_system_programming.dir/main.c.o"
-  "CMakeFiles/final_system_programming.dir/main.c.o.d"
+  "CMakeFiles/final_system_programming.dir/src/main.c.o"
+  "CMakeFiles/final_system_programming.dir/src/main.c.o.d"
   "final_system_programming"
   "final_system_programming.pdb"
 )
