@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/mnt/Data/Project/final_system_programming/out/build/TANH",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/final_system_programming.dir/src/main.c.o -c /mnt/Data/Project/final_system_programming/src/main.c",
-  "file": "/mnt/Data/Project/final_system_programming/src/main.c",
-  "output": "CMakeFiles/final_system_programming.dir/src/main.c.o"
-}
-]
