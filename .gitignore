@@ -1,5 +1,5 @@
 /build/
-/out/build/TANH
+/out/
 /cmake-build-*/
 CMakeUserPresets.json
 
